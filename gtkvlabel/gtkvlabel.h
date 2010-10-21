@@ -12,7 +12,7 @@ G_BEGIN_DECLS
 
 #define GTK_TYPE_VLABEL	  (gtk_vlabel_get_type ())
 #define GTK_VLABEL(obj)	  (G_TYPE_CHECK_INSTANCE_CAST ((obj), GTK_TYPE_VLABEL, GtkVLabel))
-#define GTK_LABEL_CLASSMN(klass)  (G_TYPE_CHECK_CLASS_CAST ((klass), GTK_TYPE_VLABEL, GtkVLabelClass))
+#define GTK_VLABEL_CLASS(klass)  (G_TYPE_CHECK_CLASS_CAST ((klass), GTK_TYPE_VLABEL, GtkVLabelClass))
 #define GTK_IS_VLABEL(obj)	  (G_TYPE_CHECK_INSTANCE_TYPE ((obj), GTK_TYPE_VLABEL))
 #define GTK_IS_VLABEL_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE ((klass), GTK_TYPE_VLABEL))
 #define GTK_VLABEL_GET_CLASS(obj)  (G_TYPE_INSTANCE_GET_CLASS ((obj), GTK_TYPE_VLABEL, GtkVLabelClass))
